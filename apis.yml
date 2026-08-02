@@ -1,7 +1,26 @@
 aid: witness-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/witness-ai.png
 name: Witness AI
-description: 'Witness AI is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'WitnessAI is an AI security and governance platform that lets enterprises
+  safely deploy and manage AI across their workforce. Its platform spans three pillars:
+  Observe (visibility into all AI activity, shadow-AI discovery, and cataloging of
+  applications and agents), Control (governance policies, audit trails, and compliance
+  across human and AI workforces), and Protect (runtime security that blocks prompt
+  injection and jailbreaks and filters harmful outputs). It addresses data leakage,
+  prompt-injection attacks, unauthorized agent activity, and compliance gaps. The
+  company is backed by GV. As of this profile no public API, developer portal, or
+  SDKs are published; engagement is via sales/demo.'
 url: https://raw.githubusercontent.com/api-evangelist/witness-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- AI Security
+- AI Governance
+- Security
+- Compliance
+- Observability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://witness.ai
+- type: Blog
+  url: https://witness.ai/blog/
+- type: PrivacyPolicy
+  url: https://witness.ai/privacy-policy/
+- type: Support
+  url: https://witness.ai/contact-us/
+- type: TrustCenter
+  url: https://trust.witness.ai/
+- type: DomainSecurity
+  url: security/witness-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
